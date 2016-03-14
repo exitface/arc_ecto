@@ -46,7 +46,7 @@ defmodule Arc.Ecto.Mixfile do
   defp deps do
     [
       {:arc, "~> 0.2"},
-      {:ecto, ">= 0.10.0"},
+      {:ecto, git: "https://github.com/elixir-lang/ecto.git", tag: "v2.0.0-beta.1"},
       {:mock, "~> 0.1.1", only: :test}
     ]
   end
